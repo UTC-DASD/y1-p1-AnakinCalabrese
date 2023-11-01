@@ -5,13 +5,13 @@ using UnityEngine.Animations;
 
 public class PlayerControllerwithjump : MonoBehaviour
 {
-    public int health = 100;
+   
     public GameObject Firepoint;
     public GameObject firesprite;
     float inputHorizontal;
     public float moveSpeed = 5f;
     public bool isGrounded = false;
-    public GameObject deathEffect;
+    public Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class PlayerControllerwithjump : MonoBehaviour
     // Update is called once per frame
     void Update(){
     inputHorizontal = Input.GetAxisRaw("Horizontal");
-
+animator.SetFloat("speed", Mathf.Abs(inputHorizontal));
     Jump();
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * moveSpeed;
@@ -46,5 +46,5 @@ Firepoint.transform.localRotation = Quaternion.Euler(0, 180, 0);
     firesprite.transform.localRotation = Quaternion.Euler(0, 180, 0);
 }
 }
-}
 
+}
