@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.Events;
 
 public class PlayerControllerwithjump : MonoBehaviour
 {
@@ -12,7 +14,9 @@ public class PlayerControllerwithjump : MonoBehaviour
     public float moveSpeed = 5f;
     public bool isGrounded = false;
     public Animator animator;
-    
+    public UnityEvent OnLandEvent;
+
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -27,11 +31,20 @@ animator.SetFloat("speed", Mathf.Abs(inputHorizontal));
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * moveSpeed;
     }
+      public void OnLanding ()
+	{
+		animator.SetBool("IsJumping", false);
+	}
+
     void  Jump(){
     if (Input.GetButtonDown("Jump") && isGrounded == true){
 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 7f), ForceMode2D.Impulse);
-   
+   animator.SetBool("IsJumping", true);
+
     }
+
+  
+    
 if (inputHorizontal > 0)
 {
     gameObject.transform.localScale = new Vector3(1,1,1);

@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Grounder : MonoBehaviour
 {
+    public UnityEvent OnLandEvent;
     GameObject Player;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,7 @@ private void OnCollisionEnter2D(Collision2D collision)
 {
 if (collision.collider.tag == "Ground"){
 Player.GetComponent<PlayerControllerwithjump>().isGrounded = true;
+OnLandEvent.Invoke();
 }
 
 }
