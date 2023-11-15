@@ -20,6 +20,16 @@ public class EnterDoorAction : MonoBehaviour
             sceneToLoad = "MainLevel";
             enterAllowed = true;
         }
+         else if (collision.GetComponent<EntranceDoor1>())
+        {
+            sceneToLoad = "MainLevel 3";
+            enterAllowed = true;
+        }
+         else if (collision.GetComponent<EntranceDoor2>())
+        {
+            sceneToLoad = "MainLevel 4";
+            enterAllowed = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

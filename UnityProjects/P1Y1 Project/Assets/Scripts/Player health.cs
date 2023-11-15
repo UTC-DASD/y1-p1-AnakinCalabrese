@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Playerhealth : MonoBehaviour
 {
+	private string sceneToLoad;
 	[SerializeField] private Cooldown cooldown;
    public int health;
    public GameObject deathEffect;
@@ -28,6 +29,7 @@ health -= amount;
 		Instantiate(deathEffect, transform.position, Quaternion.identity);
 		Destroy(gameObject);
 		cooldown.StartCooldown();
+	 sceneToLoad = "GameOver";
 	}
 
 }
