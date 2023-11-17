@@ -30,6 +30,7 @@ public class EnterDoorAction : MonoBehaviour
             sceneToLoad = "MainLevel 4";
             enterAllowed = true;
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)

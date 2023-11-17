@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Playerhealth : MonoBehaviour
 {
 	private string sceneToLoad;
+	public GameObject entersign;
+	public bool enterAllowed;
 	[SerializeField] private Cooldown cooldown;
    public int health;
    public GameObject deathEffect;
@@ -21,6 +23,9 @@ health -= amount;
 		{
 			if (cooldown.IsCoolingDown) return;
 			Die();
+		
+            enterAllowed = true;
+			
 		}
 	}
 
@@ -28,8 +33,27 @@ health -= amount;
 	{
 		Instantiate(deathEffect, transform.position, Quaternion.identity);
 		Destroy(gameObject);
-		cooldown.StartCooldown();
-	 sceneToLoad = "GameOver";
-	}
+		Instantiate(entersign);
+		cooldown.StartCooldown(); 
+	
 
+
+	}
+	
+private void Update()
+    {
+        if (enterAllowed && Input.GetKey(KeyCode.Return))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+    }
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+        if  (enterAllowed && collision.GetComponent<GameoverDoor>())
+        {
+            sceneToLoad = "GameOver";
+           
+        }
+	}
 }
