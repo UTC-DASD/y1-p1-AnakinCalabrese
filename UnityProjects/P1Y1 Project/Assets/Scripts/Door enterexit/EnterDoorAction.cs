@@ -17,7 +17,7 @@ public class EnterDoorAction : MonoBehaviour
         }
         else if (collision.GetComponent<ExitDoor>())
         {
-            sceneToLoad = "MainLevel";
+            sceneToLoad = "Title Screen";
             enterAllowed = true;
         }
          else if (collision.GetComponent<EntranceDoor1>())
