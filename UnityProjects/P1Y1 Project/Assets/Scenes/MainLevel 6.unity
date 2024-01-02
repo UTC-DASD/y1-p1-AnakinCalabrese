@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 4656729}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.29, y: 0.73, z: -2.7}
+  m_LocalPosition: {x: 5.6, y: 0.17, z: -2.7}
   m_LocalScale: {x: 1.9458, y: 1.9458, z: 1.9458}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -414,7 +414,7 @@ Transform:
   m_GameObject: {fileID: 445061941}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 11.01, y: 1.08, z: 0.021787537}
+  m_LocalPosition: {x: 11.08, y: 1.08, z: 0.021787537}
   m_LocalScale: {x: 25.5659, y: 0.64326096, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1016,7 +1016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2368946763508484469, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.29
+      value: 11.38
       objectReference: {fileID: 0}
     - target: {fileID: 2368946763508484469, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1065,8 +1065,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2146327768733535786, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 551648105}
   m_SourcePrefab: {fileID: 100100000, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
+--- !u!1 &551648104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2146327768733535786, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
+  m_PrefabInstance: {fileID: 551648103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &551648105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551648104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4dfe5d746abce4da76aed7215b2f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &616000588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,8 +1165,8 @@ Transform:
   m_GameObject: {fileID: 616000588}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.28, y: 0.11, z: 0}
-  m_LocalScale: {x: 2.15, y: 2.15, z: 1}
+  m_LocalPosition: {x: -1.36, y: 0.11, z: 0}
+  m_LocalScale: {x: 2.1667972, y: 2.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1746,7 +1766,7 @@ Transform:
   m_GameObject: {fileID: 1248885220}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -14.28, y: 1.0754724, z: 0.021787537}
+  m_LocalPosition: {x: -14.37, y: 1.08, z: 0.021787537}
   m_LocalScale: {x: 25.5659, y: 0.64326096, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1830,7 +1850,7 @@ Transform:
   m_GameObject: {fileID: 1449419275}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.95, y: -0.65, z: -2.79}
+  m_LocalPosition: {x: -9.01, y: -0.65, z: -2.79}
   m_LocalScale: {x: 1.9988, y: 1.9988, z: 1.9988}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2196,7 +2216,7 @@ Transform:
   m_GameObject: {fileID: 2105422274}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.33, y: -0.52, z: -2.7}
+  m_LocalPosition: {x: 9.67, y: -0.52, z: -2.7}
   m_LocalScale: {x: 1.9458, y: 1.9458, z: 1.9458}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2287,7 +2307,7 @@ PrefabInstance:
       objectReference: {fileID: 338093751}
     - target: {fileID: 5299332243352299297, guid: 9b956a29fb33b7743be328d30fcbc164, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.97
+      value: -12.95
       objectReference: {fileID: 0}
     - target: {fileID: 5299332243352299297, guid: 9b956a29fb33b7743be328d30fcbc164, type: 3}
       propertyPath: m_LocalPosition.y

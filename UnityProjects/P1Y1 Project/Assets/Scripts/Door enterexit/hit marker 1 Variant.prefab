@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hit marker 1 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2146327768733535786, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2368946763508484469, guid: 10b2065cfedb118469d7bd8d89540721, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.3

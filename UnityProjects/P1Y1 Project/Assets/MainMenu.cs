@@ -16,4 +16,9 @@ public void BackButton ()
 {
 SceneManager.LoadScene("Title Screen");
 }
+public void ExitGame ()
+{
+    Application.Quit();
+    Debug.Log("GameQuit");
+}
 }

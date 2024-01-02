@@ -150,7 +150,7 @@ Transform:
   m_GameObject: {fileID: 32819519}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: -1.57, z: 0.021787537}
+  m_LocalPosition: {x: 0.25, y: -1.57, z: 0.021787537}
   m_LocalScale: {x: 19.813572, y: 0.64326096, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -405,7 +405,7 @@ Transform:
   m_GameObject: {fileID: 38258114}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.648418, y: 3.6664724, z: 0.021787537}
+  m_LocalPosition: {x: 0.88, y: 3.6664724, z: 0.021787537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -471,7 +471,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.67, y: 1.85, z: 0.021787537}
-  m_LocalScale: {x: 1.02246, y: 1.0354, z: 1.0354}
+  m_LocalScale: {x: 1.035238, y: 1.0354, z: 1.0354}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 476802825}
@@ -573,6 +573,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &122714717
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_Name
+      value: hit marker 3 Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.97571
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590790397208431764, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
 --- !u!1 &133456136
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +782,7 @@ Transform:
   m_GameObject: {fileID: 133456136}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.671582, y: 4.62, z: 0.021787537}
+  m_LocalPosition: {x: -8.8, y: 4.45, z: 0.021787537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -749,7 +806,7 @@ PrefabInstance:
       objectReference: {fileID: 1178465447}
     - target: {fileID: 5299332243352299297, guid: 9b956a29fb33b7743be328d30fcbc164, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.58
+      value: -10.95
       objectReference: {fileID: 0}
     - target: {fileID: 5299332243352299297, guid: 9b956a29fb33b7743be328d30fcbc164, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1006,7 +1063,7 @@ Transform:
   m_GameObject: {fileID: 445061941}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 11.05, y: 32.3, z: 0.021787537}
+  m_LocalPosition: {x: 11.09, y: 32.3, z: 0.021787537}
   m_LocalScale: {x: 25.5659, y: 0.64326096, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1530,8 +1587,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa5f581dfb07c74e9a914d130128ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireball: {fileID: 0}
+  fireballstopper: {fileID: 0}
+  fireballstopper2: {fileID: 0}
   enterdoorspawn: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
   health: 80
+  healthbar: {fileID: 0}
   deathEffect: {fileID: 1248322313}
   enterSign: {fileID: 5582299658141807301, guid: 24b86c92108f9ac4f9a0ae412e8a4d3e, type: 3}
 --- !u!50 &525044781
@@ -1755,8 +1816,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa5f581dfb07c74e9a914d130128ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireball: {fileID: 0}
+  fireballstopper: {fileID: 0}
+  fireballstopper2: {fileID: 0}
   enterdoorspawn: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
   health: 80
+  healthbar: {fileID: 0}
   deathEffect: {fileID: 1248322313}
   enterSign: {fileID: 5582299658141807301, guid: 24b86c92108f9ac4f9a0ae412e8a4d3e, type: 3}
 --- !u!50 &644866016
@@ -1948,6 +2013,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &734406749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+  m_PrefabInstance: {fileID: 122714717}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &823048298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2726,7 +2796,7 @@ Transform:
   m_GameObject: {fileID: 1117763618}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.6584177, y: 5.1854725, z: 0.021787537}
+  m_LocalPosition: {x: 2.99, y: 5.1854725, z: 0.021787537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2811,8 +2881,8 @@ Transform:
   m_GameObject: {fileID: 1141518039}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75158197, y: 3.8054724, z: 0.33178753}
-  m_LocalScale: {x: 1.0869248, y: 1.3763626, z: 1.0604144}
+  m_LocalPosition: {x: -0.99, y: 3.8054724, z: 0.33178753}
+  m_LocalScale: {x: 1.086925, y: 1.3641955, z: 1.0510403}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 476802825}
@@ -3185,7 +3255,7 @@ Transform:
   m_GameObject: {fileID: 1248885220}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -14.451582, y: 1.0754724, z: 0.021787537}
+  m_LocalPosition: {x: -14.33, y: 1.08, z: 0.021787537}
   m_LocalScale: {x: 25.5659, y: 0.64326096, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3598,8 +3668,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa5f581dfb07c74e9a914d130128ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterdoorspawn: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
+  fireball: {fileID: 0}
+  fireballstopper: {fileID: 0}
+  fireballstopper2: {fileID: 0}
+  enterdoorspawn: {fileID: 734406749}
   health: 80
+  healthbar: {fileID: 0}
   deathEffect: {fileID: 1248322313}
   enterSign: {fileID: 5582299658141807301, guid: 24b86c92108f9ac4f9a0ae412e8a4d3e, type: 3}
 --- !u!50 &1498767357
@@ -3943,7 +4017,7 @@ Transform:
   m_GameObject: {fileID: 1705953727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.91, y: 3.53, z: 0.021787537}
+  m_LocalPosition: {x: -5.83, y: 3.53, z: 0.021787537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4112,7 +4186,7 @@ Transform:
   m_GameObject: {fileID: 1997023193}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.971581, y: 6.63, z: 0.021787537}
+  m_LocalPosition: {x: -12.53, y: 4.46, z: 0.021787537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4270,8 +4344,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa5f581dfb07c74e9a914d130128ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireball: {fileID: 0}
+  fireballstopper: {fileID: 0}
+  fireballstopper2: {fileID: 0}
   enterdoorspawn: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
   health: 80
+  healthbar: {fileID: 0}
   deathEffect: {fileID: 1248322313}
   enterSign: {fileID: 5582299658141807301, guid: 24b86c92108f9ac4f9a0ae412e8a4d3e, type: 3}
 --- !u!50 &2012037107
@@ -4500,7 +4578,7 @@ Transform:
   m_GameObject: {fileID: 2048661086}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.108418, y: 5.5554724, z: 0.021787537}
+  m_LocalPosition: {x: 5.34, y: 5.5554724, z: 0.021787537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4533,7 +4611,7 @@ Transform:
   m_GameObject: {fileID: 2049122182}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.45, y: -1.57, z: 0.021787537}
+  m_LocalPosition: {x: 24.8, y: -1.57, z: 0.021787537}
   m_LocalScale: {x: 25.5659, y: 0.64326096, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4788,8 +4866,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa5f581dfb07c74e9a914d130128ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireball: {fileID: 0}
+  fireballstopper: {fileID: 0}
+  fireballstopper2: {fileID: 0}
   enterdoorspawn: {fileID: 2353327911771570453, guid: 2262ca69286210e4ebc0df6622ba9838, type: 3}
   health: 80
+  healthbar: {fileID: 0}
   deathEffect: {fileID: 1248322313}
   enterSign: {fileID: 5582299658141807301, guid: 24b86c92108f9ac4f9a0ae412e8a4d3e, type: 3}
 --- !u!50 &2080847635
@@ -5119,3 +5201,4 @@ SceneRoots:
   - {fileID: 239235734}
   - {fileID: 1498392125}
   - {fileID: 823048301}
+  - {fileID: 122714717}

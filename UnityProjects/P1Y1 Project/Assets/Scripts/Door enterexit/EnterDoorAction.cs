@@ -42,6 +42,22 @@ public class EnterDoorAction : MonoBehaviour
         {
             sceneToLoad = "MainLevel";
             enterAllowed = true;
+        }else if (collision.GetComponent<EntranceDoor5>())
+        {
+            sceneToLoad = "MainLevel 7";
+            enterAllowed = true;
+        }else if (collision.GetComponent<EntranceDoor6>())
+        {
+            sceneToLoad = "MainLevel 8";
+            enterAllowed = true;
+        }else if (collision.GetComponent<EntranceDoor7>())
+        {
+            sceneToLoad = "MainLevel 9";
+            enterAllowed = true;
+        }else if (collision.GetComponent<EndDoor>())
+        {
+            sceneToLoad = "X End Screen";
+            enterAllowed = true;
         }
         
     }
