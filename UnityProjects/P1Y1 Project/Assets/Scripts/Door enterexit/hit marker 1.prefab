@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2368946763508484469}
   - component: {fileID: 7921562402142651009}
   - component: {fileID: 8361201775812127970}
-  - component: {fileID: 4253462336262045982}
   m_Layer: 0
   m_Name: hit marker 1
   m_TagString: Untagged
@@ -131,15 +130,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22963502, y: 1.5226516}
   m_EdgeRadius: 0
---- !u!114 &4253462336262045982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146327768733535786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9e33e0be51ca546b44f379b0697b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
